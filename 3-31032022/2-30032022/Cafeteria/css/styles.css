@@ -76,3 +76,40 @@ footer div {
   width: 40px;
   height: 40px;
 }
+/* --------------inicio do css home------------ */
+h2 {
+  font-family: "arial";
+  font-size: 20px;
+  margin: 50px;
+  /* ------------borda da tarde inferior(bottom) do h2----------- */
+  border-bottom: 1px solid tomato;
+  width: 500px;
+}
+#home p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "verdana";
+  font-size: 12pt;
+  line-height: 30pt; /*espaçamento entre linhas*/
+  text-align: justify;
+}
+
+#imghome {
+  text-align: center;
+}
+
+#imghome img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 100px;
+  opacity: 0.7;
+  transition: ease 0.5s;
+  /* mudar o ponteiro do mause para uma mão */
+  cursor: pointer;
+}
+#imghome img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
